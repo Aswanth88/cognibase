@@ -1,0 +1,32 @@
+# Dependencies
+node_modules/
+
+# Env files — NEVER commit
+.env
+.env.local
+.env.*.local
+
+# Build outputs
+dist/
+build/
+.next/
+out/
+*.tsbuildinfo
+
+# Prisma generated client (regenerate with `npx prisma generate`)
+backend/src/generated/
+
+# Uploaded files (ephemeral)
+backend/uploads/
+
+# Logs
+*.log
+npm-debug.log*
+logs/
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
